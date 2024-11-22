@@ -1,0 +1,16 @@
+type Resident @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  apartment_no: String
+  move_in_date: String
+  mobile_phone: String
+  parking_no: String
+  vehicle_rego: String
+  pet_type: String
+  pet_weight: String
+  storage_no: String
+  re_name: String
+  re_mobile: String
+  re_email: String
+  email: String
+} 

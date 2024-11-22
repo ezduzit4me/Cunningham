@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cunningham-dev-e76a6-authRole",
+      "UnauthRoleArn": "arn:aws:iam::764509453733:role/amplify-cunningham-dev-e76a6-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::764509453733:role/amplify-cunningham-dev-e76a6-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-cunningham-dev-e76a6-deployment",
+      "UnauthRoleName": "amplify-cunningham-dev-e76a6-unauthRole",
+      "StackName": "amplify-cunningham-dev-e76a6",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:764509453733:stack/amplify-cunningham-dev-e76a6/bd7df650-a717-11ef-bd85-02b45e5d1129",
+      "AmplifyAppId": "djyr6ezf8y0zv"
+    },
+    "categories": {
+      "auth": {
+        "cunninghamc0c7e304": {},
+        "cunningham": {}
+      }
+    }
+  }
+}
