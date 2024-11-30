@@ -36,7 +36,7 @@ export default function Resident() {
   
 
     return (
-      <Grid templateColumns={{ base: "1fr 0", medium: "1fr 1fr" }}>
+      <Grid templateColumns={{ base: "1fr 0", medium: "1fr 0" }}>
           <Flex
             className="App"
             justifyContent="center"
@@ -67,14 +67,7 @@ export default function Resident() {
 
            
           </Flex>
-          <View height="100vh">
-          <Image
-            src="https://s3.ap-northeast-1.amazonaws.com/cunninghamapartments.net/Cunningham_ext_11.jpg"
-            width="100%"
-            height="100%"
-            objectFit="cover"
-          />
-        </View>
+          
       </Grid>
      
     );

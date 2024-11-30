@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import { Amplify } from 'aws-amplify';
 import Resident from "./resident"
 import { Authenticator } from '@aws-amplify/ui-react';
@@ -27,8 +27,8 @@ export default function App() {
       margin="0 auto"
     >
       <Heading level={2}>Cunningham Apartments</Heading>
-      <Heading level={4}>New Farm - Qld</Heading>
-      <Heading level={2}>&nbsp;</Heading>
+      <Heading level={4}>New Farm -Qld</Heading>
+      //
     <Authenticator>
       {({ signOut, user }) => (
         <main>
