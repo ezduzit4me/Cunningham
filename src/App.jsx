@@ -28,7 +28,7 @@ export default function App() {
     >
       <Heading level={2}>Cunningham Apartments</Heading>
       <Heading level={4}>New Farm -Qld</Heading>
-      //
+      
     <Authenticator>
       {({ signOut, user }) => (
         <main>
