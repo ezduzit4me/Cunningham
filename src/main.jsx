@@ -24,7 +24,10 @@ const updatedTheme = createTheme({
                 },
         },
          text: {
-        color: { value: '{colors.primary[99]}' },
+        color: { value: 'white' },
+      },
+      label: {
+        color: { value: 'white' },
       },
 
         },

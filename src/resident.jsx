@@ -11,15 +11,13 @@ import {
  } from './ui-components';
 Amplify.configure(awsconfig);
 import {
-  Authenticator,
-  Button,
-  Text,
-  TextField,
+  
   Heading,
   Flex,
   View,
   Grid,
   Divider,
+  Image,
 } from "@aws-amplify/ui-react";
 import { Amplify } from "aws-amplify";
 import "@aws-amplify/ui-react/styles.css";
@@ -38,7 +36,7 @@ export default function Resident() {
   
 
     return (
-      
+      <Grid templateColumns={{ base: "1fr 0", medium: "1fr 1fr" }}>
           <Flex
             className="App"
             justifyContent="center"
@@ -47,7 +45,7 @@ export default function Resident() {
             width="70%"
             margin="0 auto"
           >
-            <Heading level={1}>Resident Details</Heading>
+            <Heading level={2}>Resident Details</Heading>
             <ResidentCreateForm onSubmit={(fields) => {
           // Example function to trim all string inputs
           const updatedFields = {}
@@ -62,10 +60,22 @@ export default function Resident() {
       }}
   />
             <Divider />
-           
+            <Heading level={4}>Contacts</Heading>
+            <h4> Committee - committee@cunninghamapartments.net</h4>
+            <h4> Building Manager - manager@cunninghamapartments.net</h4>
+
+
            
           </Flex>
-        
+          <View height="100vh">
+          <Image
+            src="https://s3.ap-northeast-1.amazonaws.com/cunninghamapartments.net/Cunningham_ext_11.jpg"
+            width="100%"
+            height="100%"
+            objectFit="cover"
+          />
+        </View>
+      </Grid>
      
     );
   }
